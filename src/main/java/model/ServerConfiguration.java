@@ -3,7 +3,7 @@ package model;
 import java.io.Serializable;
 
 public class ServerConfiguration implements Serializable {
-   public static final long sericalVersionUID = 3L;
+   public static final long serialVersionUID = 3L;
     int stringServerPort;
     int numericServerPort;
     int objectServerPort;
@@ -32,8 +32,8 @@ public class ServerConfiguration implements Serializable {
         this.code = code;
     }
 
-    public static long getSericalVersionUID() {
-        return sericalVersionUID;
+    public static long getSerialVersionUID() {
+        return serialVersionUID;
     }
 
     public int getStringServerPort() {
