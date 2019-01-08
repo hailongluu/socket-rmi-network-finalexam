@@ -130,7 +130,7 @@ public class Client {
             }
         }
         for (int i = 0; i <arr.length ; i++) {
-            if (arr[i] < arr[max] && arr[i] > second){
+            if (arr[i] < arr[max] && arr[i] > arr[second]){
                 second=i;
             }
         }
